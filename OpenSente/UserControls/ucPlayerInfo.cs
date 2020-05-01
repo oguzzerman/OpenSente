@@ -41,7 +41,16 @@ namespace OpenSente.UserControls
             {
                 txtPlayerName.Text = _SelectedPlayer.Name;
                 txtKGSName.Text = _SelectedPlayer.KGSName;
-                txtEGDPin.Text = _SelectedPlayer.EGDPinCode.ToString();
+
+                if (_SelectedPlayer.EGDPinCode == -1)
+                {
+                    txtEGDPin.Text = _SelectedPlayer.EGDPinCode.ToString();
+                }
+                else
+                {
+                    txtEGDPin.Text = "-";
+                }
+
                 txtCity.Text = _SelectedPlayer.City;
                 txtClub.Text = _SelectedPlayer.Club;
             }
