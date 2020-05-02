@@ -40,6 +40,9 @@ namespace OpenSente.UserControls
 
         private void PrepareUI()
         {
+            cmbPlayer1Color.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbResult.DropDownStyle = ComboBoxStyle.DropDownList;
+
             cmbPlayer1Color.SelectedIndex = 0;
             cmbResult.SelectedIndex = 0;
             txtHandicap.Enabled = false;
