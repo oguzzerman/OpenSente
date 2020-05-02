@@ -21,12 +21,13 @@ namespace OpenSente.UserControls
             lblText.Text = Text;
             lblText.MouseEnter += HighlightFancyButton_MouseEnter;
             lblText.MouseLeave += HighlightFancyButton_MouseLeave;
+            lblText.MouseDown += HighlightFancyButton_MouseDown;
+            lblText.MouseUp += HighlightFancyButton_MouseUp;
             if (!this.Enabled)
             {
                 this.BackColor = Color.Gray;
             }
         }
-
 
         #endregion
 
@@ -74,6 +75,17 @@ namespace OpenSente.UserControls
         #endregion
 
         #region Events
+
+        private void HighlightFancyButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.BackColor = Color.DodgerBlue;
+        }
+
+
+        private void HighlightFancyButton_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+        }
 
         private void HighlightFancyButton_MouseLeave(object sender, EventArgs e)
         {
