@@ -84,9 +84,9 @@
             "Beyaz Kazandı",
             "Siyah (Hükmen)",
             "Beyaz (Hükmen)"});
-            this.cmbResult.Location = new System.Drawing.Point(102, 51);
+            this.cmbResult.Location = new System.Drawing.Point(113, 51);
             this.cmbResult.Name = "cmbResult";
-            this.cmbResult.Size = new System.Drawing.Size(133, 21);
+            this.cmbResult.Size = new System.Drawing.Size(122, 21);
             this.cmbResult.TabIndex = 6;
             // 
             // lblGameName
@@ -106,7 +106,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(6, 50);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 23);
+            this.label3.Size = new System.Drawing.Size(101, 23);
             this.label3.TabIndex = 8;
             this.label3.Text = "Sonuç:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -226,9 +226,9 @@
             this.cmbPlayer1Color.Items.AddRange(new object[] {
             "Siyah",
             "Beyaz"});
-            this.cmbPlayer1Color.Location = new System.Drawing.Point(102, 24);
+            this.cmbPlayer1Color.Location = new System.Drawing.Point(113, 24);
             this.cmbPlayer1Color.Name = "cmbPlayer1Color";
-            this.cmbPlayer1Color.Size = new System.Drawing.Size(133, 21);
+            this.cmbPlayer1Color.Size = new System.Drawing.Size(122, 21);
             this.cmbPlayer1Color.TabIndex = 10;
             // 
             // label1
@@ -236,7 +236,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(6, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 23);
+            this.label1.Size = new System.Drawing.Size(101, 23);
             this.label1.TabIndex = 9;
             this.label1.Text = "Oyuncu 1 Renk:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

@@ -124,7 +124,7 @@ namespace OpenSente.UserControls
             notifyIcon1.Icon = SystemIcons.Exclamation;
 
             notifyIcon1.BalloonTipTitle = "Başarılar!";
-            notifyIcon1.BalloonTipText = "Maç ismi kopyalandı. Her iki tarafa da başarılar dileriz.";
+            notifyIcon1.BalloonTipText = "Masa ismi kopyalandı. Her iki tarafa da başarılar dileriz.";
             notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
         }
 
