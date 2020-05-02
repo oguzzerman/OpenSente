@@ -15,13 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_01C05E1839E6B0B695534247B757385B"
+        "MsmKey" = "8:_1AEFBE4FE9BE13B7EF9EFA6BF9AA612D"
         "OwnerKey" = "8:_61C4CB5001C948F8AB1117A2CF3AA680"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_01C05E1839E6B0B695534247B757385B"
+        "MsmKey" = "8:_1AEFBE4FE9BE13B7EF9EFA6BF9AA612D"
         "OwnerKey" = "8:_62308D9228B735C06F89453A46600506"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,13 +33,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_49B64FB96199EF3FE8B0799851E6E72D"
+        "MsmKey" = "8:_5385DC86B910076A665AA81EF3D49C25"
         "OwnerKey" = "8:_61C4CB5001C948F8AB1117A2CF3AA680"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_49B64FB96199EF3FE8B0799851E6E72D"
+        "MsmKey" = "8:_5385DC86B910076A665AA81EF3D49C25"
         "OwnerKey" = "8:_62308D9228B735C06F89453A46600506"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -76,13 +76,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_49B64FB96199EF3FE8B0799851E6E72D"
+        "OwnerKey" = "8:_5385DC86B910076A665AA81EF3D49C25"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_01C05E1839E6B0B695534247B757385B"
+        "OwnerKey" = "8:_1AEFBE4FE9BE13B7EF9EFA6BF9AA612D"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -110,6 +110,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -134,6 +142,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -164,14 +180,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_01C05E1839E6B0B695534247B757385B"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1AEFBE4FE9BE13B7EF9EFA6BF9AA612D"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_01C05E1839E6B0B695534247B757385B"
+                    "_1AEFBE4FE9BE13B7EF9EFA6BF9AA612D"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -215,14 +231,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_49B64FB96199EF3FE8B0799851E6E72D"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5385DC86B910076A665AA81EF3D49C25"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_49B64FB96199EF3FE8B0799851E6E72D"
+                    "_5385DC86B910076A665AA81EF3D49C25"
                     {
                     "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
@@ -365,7 +381,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:OpenSente"
         "ProductCode" = "8:{DF673D17-4FC9-47F3-89FE-92D2863FF1FA}"
-        "PackageCode" = "8:{4AA0F2C4-4DED-42E7-B85E-74E1F61B863D}"
+        "PackageCode" = "8:{FE5977D4-C2BE-4084-85FA-FE3A2979E6C3}"
         "UpgradeCode" = "8:{2FA36457-FAF3-4F7F-8C17-207A234F682F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
